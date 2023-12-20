@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="li" />
+            <item index="7" class="java.lang.String" itemvalue="div" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E501" />
+          <option value="E225" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="challenge8.disc_price" />
+          <option value="parser" />
+          <option value="proj2app.views.placelace" />
+          <option value="proj2app.models.place.*" />
+          <option value="proj2app.models.profile.objects" />
+          <option value="movielist.movieapp1.models.movie.objects" />
+          <option value="movielist.movieapp1.views.movie" />
+          <option value="django.forms.movie_Form" />
+          <option value="ecommerce.ecomapp.models.product.objects" />
+          <option value="ecommerce.ecomapp.models.Category.objects" />
+          <option value="ecommerce.cart.models.Cart.DoesNotExist" />
+          <option value="ecommerce.cart.models.Cart.objects" />
+          <option value="ecommerce.cart.models.CartItem.objects" />
+          <option value="ecommerce.cart.models.CartItem.DoesNotExist" />
+          <option value="rest.rest.urls.restapp" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
